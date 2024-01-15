@@ -64,8 +64,6 @@ def update_prices_in_google_sheet():
             counter += len(batch_cells)
             all_articles = len(articles)
             print(f"Updated and formatted {counter} / {all_articles} cells")
-            print("pause due to rules of google sheets api...")
-            time.sleep(60)
 
 
 def main():
